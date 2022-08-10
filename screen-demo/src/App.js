@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const API = "https://wysa.rest.johnweak.dev/onboarding";
+  const API = "https://wysa.johnweak.dev/onboarding";
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
